@@ -1,0 +1,39 @@
+{
+    ////////////////////////////
+    //// Sublimall settings ////
+    ////////////////////////////
+    "api_root_url": "http://sublimall.org",
+    "api_upload_url": "/api/upload/",
+    "api_retrieve_url": "/api/retrieve/",
+    "api_max_package_size_url": "/api/max-package-size/",
+
+    ///////////////////////
+    //// User settings ////
+    ///////////////////////
+    "email": "",
+    "api_key": "",
+
+    // "archives_path": "/tmp",
+    // "local_backup": true
+    
+    // Paths must be: "Packages/SublimeCodeIntel" or "Installed Packages/Sublimall"
+    "ignore_packages": [],
+    // Set true if you want to exclude packages managed by Package Control
+    "exclude_from_package_control": false,
+    // Set false if you don't want to encrypt your configuration
+    "encrypt": true,
+    // Upload timeout in seconds
+    "http_upload_timeout": 240,
+    // Download timeout in seconds
+    "http_download_timeout": 240,
+    // Path to 7zip executable, though Sublimall tries to find it out itself
+    // OSX: "/usr/local/Cellar/p7zip/*/bin/7za"
+    // Linux: "/usr/bin/7za" or "/usr/bin/p7zip"
+    // But you can overwrite it here.
+    "7za_path": "",
+    // HTTP proxy to use for HTTP requests. Support for authentication
+    // Examples: http://user:password@host:port or http://ip:port
+    "http_proxy": "",
+    // Don't follow symlinks
+    "symlinks": false
+}
